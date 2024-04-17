@@ -17,7 +17,26 @@ body {
     background-color: #cacccc
     color: #efefef;
     padding: 10px;
- 
+    text-decoration: none;
+    color: inherit;
+}
+
+.navLink.active a {
+     color: #080808;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navLink a:hover{
+    color: #eee7e7;
+    text-decoration: none;
+}
+footer {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer {
@@ -26,5 +45,10 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  
+ 
 }
+
+footer active a {
+    color: #000000;
+}
+
