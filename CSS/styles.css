@@ -31,6 +31,7 @@ body {
     color: #eee7e7;
     text-decoration: none;
 }
+
 footer {
     color: black;
     display: flex;
@@ -39,14 +40,7 @@ footer {
     align-items: center;
 }
 
-footer {
-    color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
- 
-}
+
 
 footer active a {
     color: #000000;

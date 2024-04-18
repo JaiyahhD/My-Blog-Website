@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Personal Blog Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="/CSS/styles.css"/>
+    <link rel="stylesheet" href="/CSS/ContactForm.css"/>
 
 </head>
 
@@ -19,10 +19,24 @@
 </nav>
 
 <body>
-    
-
-
-
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form action="#">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="fullname" placeholder="Your full name.." required>
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." required>
+      
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
 
     <footer class="footerStyle" bg-dark text-light>
         <div>

@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ee9ca7, #ffdde1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0; 
+  }
+  
+  main {
+    flex: 1; /* Allow the main content to take up remaining space */
+  }
+  
+  .footerStyle {
+    background-color: #d1cbcb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .navStyle {
+    background-color: #cacccc
+    color: #efefef;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navLink.active a {
+     color: #080808;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navLink a:hover{
+    color: #eee7e7;
+    text-decoration: none;
+}
