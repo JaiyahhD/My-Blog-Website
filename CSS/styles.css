@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -46,3 +47,6 @@ footer active a {
     color: #000000;
 }
 
+.navStyle .navLink a {
+    text-decoration: none;
+}

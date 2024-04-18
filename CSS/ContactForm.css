@@ -5,6 +5,7 @@ body {
     background: linear-gradient(to top, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     flex-direction: column;
     min-height: 100vh; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0; 
   }
   
@@ -71,5 +72,9 @@ body {
 
 .navLink a:hover{
     color: #eee7e7;
+    text-decoration: none;
+}
+
+.navStyle .navLink a {
     text-decoration: none;
 }
